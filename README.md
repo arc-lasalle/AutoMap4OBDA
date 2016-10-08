@@ -8,7 +8,7 @@ In AutoMap4OBDA, the database content and features of the target ontology are ta
 - Short path strategy for R2RML mapping generation based on alignments
 
 Use:
-java -jar automap4obda.jar -db <databaseURL> -schema <schemaname> -driver <databaseDriver> -u <username> - p "<password>" -n <ontologyname> -d <path-to-domainontology> -o <outputfiles> [-attrasclass <0/1>] [-ol <0/1>] [-olclasstable <0/1>] [-olclassnamealone <0/1>] [-extendedmappings <0/1>]
+java -jar automap4obda.jar -db <databaseURL> -schema <<schemaname>> -driver <databaseDriver> -u <username> - p "<password>" -n <ontologyname> -d <path-to-domainontology> -o <outputfiles> [-attrasclass <0/1>] [-ol <0/1>] [-olclasstable <0/1>] [-olclassnamealone <0/1>] [-extendedmappings <0/1>]
 
 Example:
 java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structured -driver org.postgresql.Driver -u postgres -p "postgres" -n sigkdd_structured_putative -d "c:\...\sigkdd_structured.ttl" -o sigkdd_structured_putative -attrasclass 1 -ol 1 -olclasstable 1 -olclassnamealone 1  -extendedmappings 1
