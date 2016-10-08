@@ -24,6 +24,5 @@ java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structure
 - olclasstable: New classes in ontology learning technique belongs to the table class (1) or to the column class (0) (default 1)
 - olclassnamealone: New classes in ontology learning technique is taken as it is in the DB (1) or the name of the table/column is attached (0) (default 1)
 - extendedmappings: Short path technique option (default 1)
---------------------------------------------------------------------
 
 http://arc.salleurl.edu/automap4obda
