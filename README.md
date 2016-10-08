@@ -13,7 +13,8 @@ java -jar automap4obda.jar -db <databaseURL> -schema <schemaname> -driver <datab
 ```
 
 Example:
-```java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structured -driver org.postgresql.Driver -u postgres -p "postgres" -n sigkdd_structured_putative -d "c:\...\sigkdd_structured.ttl" -o sigkdd_structured_putative -attrasclass 1 -ol 1 -olclasstable 1 -olclassnamealone 1  -extendedmappings 1
+```
+java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structured -driver org.postgresql.Driver -u postgres -p "postgres" -n sigkdd_structured_putative -d "c:\...\sigkdd_structured.ttl" -o sigkdd_structured_putative -attrasclass 1 -ol 1 -olclasstable 1 -olclassnamealone 1  -extendedmappings 1
 ```
 
 
