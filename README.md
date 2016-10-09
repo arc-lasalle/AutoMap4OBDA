@@ -26,3 +26,8 @@ java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structure
 - extendedmappings: Short path technique option (default 1)
 
 http://arc.salleurl.edu/automap4obda
+
+Copyright (C) 2016 ARC Engineering and Architecture La Salle, Ramon Llull University.
+ 
+for comments please contact Alvaro Sicilia (ascilia@salleurl.edu)
+
