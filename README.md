@@ -7,7 +7,7 @@ In AutoMap4OBDA, the database content and features of the target ontology are ta
 - String similarity metric selection based on target ontology labels for ontology alignment
 - Short path strategy for R2RML mapping generation based on alignments
 
-This is the first version which require some code cleansing and refactoring. Currently it is only supporting PostgreSQL.
+This is the first version which will require some code cleansing and refactoring. Currently it is only supporting PostgreSQL.
 
 Use:
 ```
@@ -24,7 +24,7 @@ java -jar automap4obda.jar -db jdbc:postgresql:postgres -schema sigkdd_structure
 ```
 
 
-- Password can be empty:
+- Password can be empty
 - attrasclass: Attributes as classes option (default 1)
 - ol: Ontology learning technique option (default 1)
 - olclasstable: New classes in ontology learning technique belongs to the table class (1) or to the column class (0) (default 1)
